@@ -29,7 +29,7 @@ class Mapping implements MappingInterface {
             $type = 'double';
         } else if (preg_match('/^(tiny|small|medium|big)?int$/',$t,$m)) {
             $type = 'integer';
-        } else if (preg_match('/^(varchar|char|text|tinytext|mediumtext|longtext|tinyblob|blob|mediumblob|longblob)$/',$t,$m)) {
+        } else if (preg_match('/^(varchar|char|text|tinytext|mediumtext|longtext|tinyblob|blob|mediumblob|longblob|enum)$/',$t,$m)) {
             $type = 'string';
         } else if (preg_match('/^(date)$/',$t,$m)) {
             $type = 'date';
