@@ -36,7 +36,7 @@ class Mapping implements MappingInterface {
         } else if (preg_match('/^(datetime)$/',$t,$m)) {
             $type = 'datetime';
         } else if (preg_match('/^(time|timestamp)/',$t,$m)) {
-            $type = 'double';
+            $type = 'string';
         }
 
         $colName = self::underscoreToCamelCase($prop['COLUMN_NAME']);
