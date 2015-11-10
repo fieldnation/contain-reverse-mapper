@@ -1,5 +1,5 @@
 {
-    "name": "ajbdev/contain-reverse-mapper",
+    "name": "fieldnation/contain-reverse-mapper",
     "description": "Generate Contain entities from your database",
     "type": "library",
     "keywords": [
